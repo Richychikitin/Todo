@@ -1,0 +1,16 @@
+# Ignorar node_modules y archivos de entorno
+node_modules
+*.env
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar carpetas temporales y archivos de configuración locales
+temp/
+.DS_Store
+.vscode/
+.idea/
+
+# Ignorar archivos de git
+.git
+.gitignore
