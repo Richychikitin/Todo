@@ -210,4 +210,4 @@ Error response from daemon: driver failed programming external connectivity on e
   const mongoURI = process.env.MONGO_URL || 'mongodb://mongodb:27017/todo-app';
   ```
 
-  Si cambiaste el puerto del host, la cadena de conexión interna dentro de Docker sigue siendo `mongodb:270
+  Si cambiaste el puerto del host, la cadena de conexión interna dentro de Docker sigue siendo `mongodb:27017`
